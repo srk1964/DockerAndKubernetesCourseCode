@@ -35,3 +35,5 @@ spec:
       failureThreshold: 1 # Default is 3
 
 # kubectl exec pod-name -c container-name -it /bin/sh
+# kubectl exec my-nginx -c my-nginx -i -t -- sh -il
+# kubectl apply -f C:\Users\Scott\OneDrive\Documents\GitHub\DockerAndKubernetesCourseCode\samples\pods\nginx-readiness-probe.pod.yml
